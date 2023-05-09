@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(95, 93, 93);
+}
+.nav {
+    color: rgb(95, 93, 93);
+    font-weight:500;
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    
+    
+
+}
+.nav:hover{
+    border-bottom: 0.5px solid lightgray;
+    box-shadow: 3px 3px 3px lightgray;
+}
+.main {
+    margin-top: 4rem;
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: -1;
+    
+}
+.btn {
+    background-color: white;
+    border: 1px solid lightgrey;
+    height: 2rem;
+    
+    border-radius: 1rem;
+    color: rgb(95, 93, 93);
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.modal {
+    background-color: white;
+    border: 1px solid lightgrey;
+    height: 10rem;
+    width: 20rem;
+    border-radius: 1rem;
+    color: rgb(95, 93, 93);
+    padding: 1rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -5rem;
+    margin-left: -10rem;
+    
+}
+.input {
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    height: 1.8rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+.mdl-btn-sctn {
+    display: flex;
+    justify-content: flex-end;
+
+}
+h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.btn-margn {
+    margin-right: 1rem;
+}
+.btn-mrgn-tp {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    width: 10rem;
+}
+.plan {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    width: 20rem;
+    margin-left: 2rem;
+}
+.btn-close {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+    width: 1rem;
+    
+    
+}
+.plan-txt {
+    margin-right: 0.5rem;
+}
+.plan-wrpr {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2rem;
+}
+.btn-edit {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+    width: 2rem;
+}
+.edit-form {
+    background-color: white;
+    border: 1px solid lightgrey;
+    height: 2rem;
+    width: 18rem;
+    border-radius: 1rem;
+    color: rgb(95, 93, 93);
+    padding: 1rem;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.input-edit {
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
